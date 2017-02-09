@@ -4,14 +4,9 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, img, form, fieldset, b
     border: 0px;
 }
 
-html {
-    height: 100%;
-}
 
 body {
     font-family: Arial, helvetica, sans-serif;
-    min-height: 100%;
-    margin-bottom: 200px;
     clear: both;
 }
 
@@ -19,6 +14,7 @@ body {
     width: 1000px;
     margin: 0 auto;
 }
+
 
 
 /* Top Bar */
@@ -90,7 +86,7 @@ p.desc {
     font-size: 2em;
     position: absolute;
     left: 8em;
-    top: 10%;
+    top: 30%;
 }
 /* Menu */
 #navigation {
@@ -125,6 +121,9 @@ ul#menu li {
     float: left;
     width: 60%;
     margin-top: 30px;
+    overflow: hidden;
+    min-height: 100vh;
+
 }
 
 #posts h2 {
@@ -190,7 +189,7 @@ ul#menu li {
 /* Sidebar */
 #sidebar {
     float: right;
-    width: 30%;
+    width: 25%;
     background: #d8ddd1;
     height: auto;
     padding-left: 20px;
@@ -218,16 +217,20 @@ ul#menu li {
     color: #525254;
 }
 
-
+#main{
+  
+}
+/* Footer */
 #footer{
   clear: both;
   overflow: hidden;
   bottom:0;
   background-color: #032b1d;
+  padding-bottom: 20px;
 }
 #footer_content{
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 100px;
 }
 
 #feeds {
@@ -263,5 +266,5 @@ ul#menu li {
 #footer ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.8em
+    font-size: .9em
 }
