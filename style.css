@@ -110,7 +110,7 @@ ul#menu li a {
 
 ul#menu li {
     float: left;
-    padding-right: 45px;
+    padding-right: 66px;
     padding-top: 11px;
     padding-bottom: 11px;
 }
@@ -123,6 +123,7 @@ ul#menu li {
     margin-top: 30px;
     overflow: hidden;
     min-height: 100vh;
+    padding-bottom: 30px;
 
 }
 
@@ -192,6 +193,7 @@ ul#menu li {
     width: 25%;
     background: #d8ddd1;
     height: auto;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;*/
@@ -217,9 +219,6 @@ ul#menu li {
     color: #525254;
 }
 
-#main{
-  
-}
 /* Footer */
 #footer{
   clear: both;
