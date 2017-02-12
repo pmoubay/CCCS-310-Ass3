@@ -3,6 +3,11 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, img, form, fieldset, b
     padding: 0px;
     border: 0px;
 }
+<<<<<<< HEAD
+=======
+html {    height: 100%;}
+body {font-family: Arial, helvetica, sans-serif; postion:relative;min-height: 100%;margin-bottom: 200px;clear: both;font-size: 14px}
+>>>>>>> origin/master
 
 
 body {
